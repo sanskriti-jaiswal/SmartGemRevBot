@@ -3,7 +3,48 @@
   padding: 0%;
   box-sizing: border-box;
 }
-html, body {
+html, body, #root {
   height: 100%;
   width: 100%;
+
+}
+main{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  padding: 1.5rem;
+  gap: 1rem;
+}
+main .left, main .right {
+  height: 100%;
+  flex-basis: 50%;
+  border-radius: 0.7rem;
+}
+main .left {
+  background-color: black;
+  position: relative;
+}
+main .right {
+  background-color: #f0f0f0;
+  
+}
+.left .code , .code pre , .code pre code {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  border-radius: 0.7rem;
+  background-color: rgb(22, 22, 22);
+}
+
+main .left .review{
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  padding: 0.5rem 2rem;
+  background-color:rgb(210, 202, 202);
+  color: black;
+  font-weight: 500;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 0.7rem;
 }

@@ -74,7 +74,9 @@ CORS & dotenv
 
 ---
 ## UI Screenshot
-![image](https://github.com/user-attachments/assets/6202fe79-d410-4f9a-96eb-9e7054649811)
+![image](https://github.com/user-attachments/assets/cf5757c6-5fb1-470d-81c6-94caf6413ed1)
+
+![image](https://github.com/user-attachments/assets/15759328-86d6-4872-9a1a-ee04aadef7e4)
 
 
 ## 🧠 Future Enhancements
@@ -85,6 +87,6 @@ CORS & dotenv
 
 ---
 ## 🙋‍♀️ Author- 
-Sanskriti Jaiswal
+Sanskriti Jaiswal <3
 
 

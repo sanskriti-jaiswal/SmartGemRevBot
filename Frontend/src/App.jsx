@@ -39,7 +39,7 @@ function App() {
         <div className="header-content">
           <h1 className="app-title">
             <span className="title-icon">🔍</span>
-            AI Code Reviewer
+            SmartGemRevBot
           </h1>
           <p className="app-subtitle">
             Paste your code and get instant AI-powered feedback and suggestions

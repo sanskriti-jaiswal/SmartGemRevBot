@@ -25,7 +25,10 @@ main .left {
   position: relative;
 }
 main .right {
-  background-color: #f0f0f0;
+  background-color: #323030;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  overflow: auto;
   
 }
 .left .code , .code pre , .code pre code {

@@ -3,7 +3,7 @@ const express = require('express');
 const aiRoutes = require('./routes/ai.routes');
 const app= express()
 
-
+app.use(express.json());     //middleware to parse JSON bodies
 app.get('/', (req, res) => {
     res.send('Hello World!')
 });

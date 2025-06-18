@@ -43,8 +43,28 @@ A complete user authentication system has been implemented, featuring:
 - Conditional rendering of protected UI (like editor) based on login status
 - Logout button to destroy session
 
+```bash
+## 🧪 Postman Testing (Backend)
 
+| Endpoint               | Method | Description          |
+|------------------------|--------|----------------------|
+| `/api/auth/register`   | POST   | Register new users   |
+| `/api/auth/login`      | POST   | Login and get JWT    |
+| `/ai/get-review`       | POST   | Protected route for AI review |
+```
+Pass the **JWT token** in headers as:  
+Authorization: Bearer <your_token>
 
+```bash
+## ⚙️ Local Environment Setup
+Create a `.env` file in both backend and (if needed) frontend folders:
+
+### 📁 `.env` for Backend
+MONGO_URI=mongodb://localhost:27017/smartgenrevbot
+JWT_SECRET=your_super_secret_key
+GEMINI_API_KEY=your_google_gemini_api_key
+> ⚠️ This file is **excluded from GitHub** via `.gitignore`. Do not commit secrets.
+```
   
 ## 📁 Project Structure
 

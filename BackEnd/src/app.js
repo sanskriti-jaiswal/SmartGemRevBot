@@ -1,16 +1,28 @@
 require('dotenv').config();
 const express = require('express');
-const aiRoutes = require('./routes/ai.routes');
+const mongoose = require('mongoose');
 const cors = require('cors');
-const app= express()
 
-app.use(cors());              //middleware to enable CORS
+const aiRoutes = require('./routes/ai.routes');
+const authRoutes = require('./routes/auth.routes');
 
-app.use(express.json());     //middleware to parse JSON bodies
+const app = express();
+
+app.use(cors());
+app.use(express.json());
+
+mongoose.connect(process.env.MONGO_URI, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+})
+.then(() => console.log("Connected to MongoDB"))
+.catch((err) => console.error("MongoDB connection error:", err));
+
 app.get('/', (req, res) => {
-    res.send('Hello World!')
+    res.send('Hello World!');
 });
 
-app.use('/ai', aiRoutes)
+app.use('/ai', aiRoutes);
+app.use('/api/auth', authRoutes); // 🔐 Connect auth route
 
-module.exports = app
+module.exports = app;

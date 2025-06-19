@@ -1,13 +1,12 @@
 ## 💎 SmartGemRevBot 
 
-SmartGemRevBot is a full-stack AI-powered code review assistant that helps developers improve their codes with the feedback style of a senior software engineer. Just paste your code and receive actionable suggestions using the power of Google's Gemini API.
-
+SmartGemRevBot is a full-stack (MERN) AI-powered code review assistant that helps developers improve their codes to deliver context-rich, real-time feedback with style of a senior software engineer. It features a modular, scalable backend, secure JWT-based authentication (signup, sign-in, logout), protected routes, and a dynamic syntax-highlighted editor with markdown-rendered insights.
 
 
 ## 🎯 Purpose
 
 Switching to ChatGPT, Gemini, or other tools every time you want feedback slows you down. **SmartGemRevBot** is built to bring that power into one clean interface—no context switching, no distractions, just focused AI feedback.
-
+The purpose of SmartGemRevBot is to provide developers with a dedicated, real-time code review assistant that mimics the feedback of a senior software engineer. It aims to streamline the code review process by offering instant, context-aware suggestions across multiple programming languages, eliminating the need to manually interact with general-purpose AI tools. The platform also ensures secure access, personalized sessions, and a developer-friendly experience through an integrated editor and modular backend — making AI-driven code reviews more practical, scalable, and production-ready.
 
 
 ## ✨ Features
@@ -112,19 +111,31 @@ CODE-REVIEW/
 
 
 ## 🛠️ Tech Stack
+
 **🔹 Frontend**
-- React.js (via Vite)
-- Prism.js + react-simple-code-editor for code editing with syntax highlighting
-- Axios 
-- React Markdown + Rehype Highlight for clean AI response rendering
-- Context API for auth state
+
+| Technology / Library                      | Purpose                                                               |
+|-------------------------------------------|----------------------------------------------------------------------------------|
+| React.js (via Vite)                       | Builds a fast, modular, and optimized user interface.                           |
+| Prism.js + react-simple-code-editor       | Enables a live code editor with syntax highlighting for multiple languages.     |
+| Axios                                     | Handles HTTP requests from frontend to backend APIs.                            |
+| React Markdown + Rehype Highlight         | Renders AI responses in clean, markdown format with syntax highlighting.        |
+| Context API                               | Manages authentication state and shares it across components securely.          |
+
 
 
 **🔸 Backend**
-- Node.js + Express
-- MongoDB + Mongoose
-- Google Gemini API (`@google/gemini`)
-- Bcrypt, JWT, CORS, dotenv
+
+| Technology / Library                      | Purpose / Usage                                                                 |
+|-------------------------------------------|----------------------------------------------------------------------------------|
+| Node.js + Express.js                      | Builds the backend server, REST APIs, and handles core logic.                   |
+| MongoDB + Mongoose                        | Stores user data and code; Mongoose provides a structured schema layer.         |
+| Google Gemini API (@google/gemini)        | Provides AI-powered, context-aware code review suggestions.                     |
+| Bcrypt                                    | Hashes user passwords securely before storing them in the database.             |
+| JWT (JSON Web Tokens)                     | Handles secure, token-based authentication and protected route access.          |
+| CORS (Cross-Origin Resource Sharing)      | Enables controlled communication between frontend and backend.                  |
+| dotenv                                    | Loads environment variables securely from `.env` files.                         |
+
 
 
 ## UI Screenshot

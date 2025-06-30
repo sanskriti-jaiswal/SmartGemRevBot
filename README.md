@@ -1,7 +1,8 @@
+![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)
+## Licensed under the MIT License.
 ## 💎 SmartGemRevBot 
 
 SmartGemRevBot is a full-stack (MERN) AI-powered code review assistant that helps developers improve their codes to deliver context-rich, real-time feedback with style of a senior software engineer. It features a modular, scalable backend, secure JWT-based authentication (signup, sign-in, logout), protected routes, and a dynamic syntax-highlighted editor with markdown-rendered insights.
-
 
 ## 🎯 Purpose
 
@@ -154,5 +155,6 @@ CODE-REVIEW/
 
 **Sanskriti Jaiswal** 💻  
 *Passionate about building impactful, intelligent full-stack apps.*
+
 
 

@@ -157,6 +157,6 @@ CODE-REVIEW/
 *Passionate about building impactful, intelligent full-stack apps.*
 
 ## License
-This project is licensed under the MIT License.
+This project is created and maintained by **Sanskriti Jaiswal**. Licensed under MIT.
 ![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)
 

@@ -1,4 +1,5 @@
-![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)
+![License: All Rights Reserved](https://img.shields.io/badge/License-All--Rights--Reserved-red)
+
 
 ## 💎 SmartGemRevBot 
 
@@ -157,6 +158,7 @@ CODE-REVIEW/
 *Passionate about building impactful, intelligent full-stack apps.*
 
 ## License
-This project is created and maintained by **Sanskriti Jaiswal**. Licensed under MIT.
-![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)
+All Rights Reserved © 2025 Sanskriti Jaiswal  
+This code may not be copied, modified, or distributed without explicit permission from the author.
+
 
